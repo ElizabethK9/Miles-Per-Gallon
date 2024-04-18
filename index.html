@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="scripts/main.js" defer></script>
+    <link rel="stylesheet" href="Styles/site.css">
+</head>
+<body>
+    <main>
+        <h1 id="font">Calculate Miles Per Gallon</h1>
+        <label for="miles">Miles Driven:</label>
+		<input type="text" id="miles"> 
+        <br>
+
+        <label for="gallons">Gallons of Gas Used:</label>
+        <input type="text" id="gallons">
+        <br>
+
+        <label for="mpg">Miles Per Gallon: </label>
+        <input type="text" id="mpg" disabled><br>
+
+        <label>&nbsp;</label>
+        <input type="button" id="calculate" value="Calculate MPG"><br>
+
+        <label>&nbsp;</label>
+        <input type="button" id="clear" value="Clear Entries"><br>
+
+        <span id="error"></span>
+        
+    </main>
+</body>
+</html>

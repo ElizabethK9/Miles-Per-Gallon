@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+}
+#font{
+    font-size: xxx-large;
+    color: rgb(9, 132, 132);
+    border: 30px solid #80BDFF;
+    
+}
+label[for="miles"]{
+    font-size: x-large;
+    color: rgb(8, 96, 129);
+}
+#miles{
+    font-size: x-large;  
+}
+
+label[for="gallons"]{
+    font-size: x-large;
+    color: rgb(2, 2, 97);
+}
+
+#gallons{
+    font-size: x-large;
+    
+}
+
+label[for="mpg"]{
+    font-size: x-large;
+    color: blue;
+}
+
+#mpg{
+    font-size: x-large;
+}
+
+#calculate{
+    background-color: cyan;
+    font-size: larger;
+}
+#clear{
+    background-color: aquamarine;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+#error{
+    margin-top: 2%;
+    font-size: x-large;
+    color:red;
+    
+}
